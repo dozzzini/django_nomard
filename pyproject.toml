@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nomard-django"
+version = "0.1.0"
+description = ""
+authors = ["dozzzini <dozzzini@naver.com>"]
+readme = "README.md"
+packages = [{include = "nomard_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.3"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
